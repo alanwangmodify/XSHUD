@@ -10,4 +10,11 @@ import UIKit
 
 class XSHUD: NSObject {
 
+//    
+//    open func show(onView view:UIView? = nil){
+//        
+//        
+//        
+//    }
+    
 }

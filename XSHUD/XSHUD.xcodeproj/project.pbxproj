@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5E2311701E6E5A4E00E0D6C3 /* XSHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E23116F1E6E5A4E00E0D6C3 /* XSHUD.swift */; };
 		5E2311721E6E5F8B00E0D6C3 /* XSHUDBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2311711E6E5F8B00E0D6C3 /* XSHUDBaseView.swift */; };
+		5E36FF021E7107B4009DDB20 /* XSContainnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36FF011E7107B4009DDB20 /* XSContainnerView.swift */; };
+		5E57C1541E7FB6E000747423 /* XSEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E57C1531E7FB6E000747423 /* XSEffectView.swift */; };
 		5ED244191E68246600CEC0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED244181E68246600CEC0F6 /* AppDelegate.swift */; };
 		5ED2441B1E68246600CEC0F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2441A1E68246600CEC0F6 /* ViewController.swift */; };
 		5ED2441E1E68246600CEC0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED2441C1E68246600CEC0F6 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		5E23116F1E6E5A4E00E0D6C3 /* XSHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSHUD.swift; sourceTree = "<group>"; };
 		5E2311711E6E5F8B00E0D6C3 /* XSHUDBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSHUDBaseView.swift; sourceTree = "<group>"; };
+		5E36FF011E7107B4009DDB20 /* XSContainnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSContainnerView.swift; sourceTree = "<group>"; };
+		5E57C1531E7FB6E000747423 /* XSEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSEffectView.swift; sourceTree = "<group>"; };
 		5ED244151E68246600CEC0F6 /* XSHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED244181E68246600CEC0F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED2441A1E68246600CEC0F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				5ED2441A1E68246600CEC0F6 /* ViewController.swift */,
 				5E23116F1E6E5A4E00E0D6C3 /* XSHUD.swift */,
 				5E2311711E6E5F8B00E0D6C3 /* XSHUDBaseView.swift */,
+				5E36FF011E7107B4009DDB20 /* XSContainnerView.swift */,
+				5E57C1531E7FB6E000747423 /* XSEffectView.swift */,
 				5ED2441C1E68246600CEC0F6 /* Main.storyboard */,
 				5ED2441F1E68246600CEC0F6 /* Assets.xcassets */,
 				5ED244211E68246600CEC0F6 /* LaunchScreen.storyboard */,
@@ -272,6 +278,8 @@
 				5E2311721E6E5F8B00E0D6C3 /* XSHUDBaseView.swift in Sources */,
 				5ED2441B1E68246600CEC0F6 /* ViewController.swift in Sources */,
 				5E2311701E6E5A4E00E0D6C3 /* XSHUD.swift in Sources */,
+				5E36FF021E7107B4009DDB20 /* XSContainnerView.swift in Sources */,
+				5E57C1541E7FB6E000747423 /* XSEffectView.swift in Sources */,
 				5ED244191E68246600CEC0F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
