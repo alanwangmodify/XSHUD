@@ -10,11 +10,16 @@ import UIKit
 
 class XSHUD: NSObject {
 
-//    
-//    open func show(onView view:UIView? = nil){
-//        
-//        
-//        
-//    }
+    //TODO struct
+    fileprivate struct Constants {
+        static let sharedHUD = XSHUD()
+    }
+    
+    open class var sharedHUD: XSHUD {
+        return Constants.sharedHUD
+    }
+    
+    public var viewToPresenton : UIView? = nil
+        
     
 }

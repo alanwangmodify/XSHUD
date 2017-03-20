@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -21,25 +22,23 @@ class ViewController: UIViewController {
         
         //函数类型
         self.view.addSubview(self.homeBtn)
-        
+        self.homeBtn.addTarget(self,action: #selector(btnClick(sender:)), for: .touchUpInside)
         
     }
     
     
     let homeBtn: UIButton = {
        
-        let btn = UIButton()
+        let btn:UIButton = UIButton(type:.custom)
         btn.frame.size = CGSize(width:100,height:100)
         btn.frame.origin = CGPoint(x:100,y:100)
         btn.backgroundColor = UIColor.gray
-//        btn.addTarget(self, action: #selector(btnClick(sender:)), for:
-//            .touchUpInside)
+   
         return btn;
         
     }()
     
-     func btnClick(sender:UIButton) -> Void {
-        
+     func btnClick(sender:UIButton){
         
     }
     
